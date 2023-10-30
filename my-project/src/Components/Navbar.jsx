@@ -11,7 +11,7 @@ function Navbar() {
           Profile
         </a>
         <a href="#" className="">
-          Experience
+          About-Me
         </a>
         <a href="#" className="">
           Projects
