@@ -11,10 +11,10 @@ function Navbar() {
           Profile
         </a>
         <a href="#" className="">
-          Projects
+          Experience
         </a>
         <a href="#" className="">
-          Experience
+          Projects
         </a>
         <a href="#" className="">
           Contact
