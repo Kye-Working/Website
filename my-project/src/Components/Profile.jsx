@@ -4,9 +4,13 @@ function Profile() {
   return (
     <div className="flex justify-center border-solid border-2 border-slate-800 p-3 m-2">
       <div>
-        <img src={chainsaw} alt="" className="w-1/2" />
+        <img
+          src={chainsaw}
+          alt=""
+          className="w-1/2 border-solid border-2 border-slate-800"
+        />
       </div>
-      <div className="w-1/5">
+      <div className="w-1/5 border-solid border-2 border-slate-800 text-center">
         <h1>Kye</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
