@@ -17,6 +17,9 @@ function Navbar() {
           Projects
         </a>
         <a href="#" className="">
+          Work-experience
+        </a>
+        <a href="#" className="">
           Contact
         </a>
       </div>

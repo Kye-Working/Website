@@ -3,6 +3,7 @@ import Footer from "./Components/Footer.jsx";
 import Profile from "./Components/Profile.jsx";
 import About from "./Components/About.jsx";
 import Contact from "./Components/Contact.jsx";
+import WorkExperience from "./Components/WorkExperience.jsx";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar></Navbar>
       <Profile></Profile>
       <About></About>
+      <WorkExperience></WorkExperience>
       <Contact></Contact>
       <Footer></Footer>
     </>

@@ -8,14 +8,14 @@ function Contact() {
         <h1>Email</h1>
         <input
           type="text"
-          className="w-64 rounded-lg border-solid border-2 border-slate-800"
+          className="w-80 rounded-lg border-solid border-2 border-slate-800"
         />
         <h1>Subject</h1>
         <input
           type="text"
           name=""
           id=""
-          className="w-64 rounded-lg border-solid border-2 border-slate-800"
+          className="w-80 rounded-lg border-solid border-2 border-slate-800"
         />
       </div>
       <div>
