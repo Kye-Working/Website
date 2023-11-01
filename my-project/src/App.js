@@ -5,6 +5,7 @@ import About from "./Components/About.jsx";
 import Contact from "./Components/Contact.jsx";
 import WorkExperience from "./Components/WorkExperience.jsx";
 import LangTools from "./Components/LangsTools.jsx";
+import Project from "./Components/Projects.jsx";
 
 function App() {
   return (
@@ -12,8 +13,10 @@ function App() {
       <Navbar></Navbar>
       <Profile></Profile>
       <About></About>
-      <LangTools></LangTools>
       <WorkExperience></WorkExperience>
+      <LangTools></LangTools>
+      <Project></Project>
+
       <Contact></Contact>
       <Footer></Footer>
     </>

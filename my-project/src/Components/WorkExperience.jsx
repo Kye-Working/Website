@@ -22,12 +22,6 @@ function WorkExperience() {
             non! Quidem iste voluptatem, sapiente et velit in aut sequi sed modi
             consequuntur eveniet ullam repudiandae autem quas veniam rem!
           </p>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Praesentium quas, quod vitae numquam non consequatur quibusdam
-            iusto, dolor provident velit culpa esse voluptate et eum, placeat
-            harum. Placeat, magnam pariatur?
-          </p>
         </div>
       </div>
     </div>

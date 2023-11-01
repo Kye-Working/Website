@@ -14,6 +14,9 @@ function Navbar() {
           About-Me
         </a>
         <a href="#" className="">
+          Languages&Tools
+        </a>
+        <a href="#" className="">
           Projects
         </a>
         <a href="#" className="">
