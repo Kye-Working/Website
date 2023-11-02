@@ -5,17 +5,13 @@ import js from "./Assets/js.png";
 
 function Project() {
   return (
-    <div className="border-solid border-2 border-slate-800 p-3 m-2">
+    <div className="h-96">
       <h1 className="flex justify-center mb-2">
         <u>Projects</u>
       </h1>
       <div className="flex justify-center space-x-10 ">
-        <img
-          src={chainsaw}
-          alt=""
-          className="h-64 w-64 border-solid border-2 border-slate-800"
-        />
-        <div className=" w-64 border-solid border-2 border-slate-800">
+        <img src={chainsaw} alt="" className="h-64 w-64 " />
+        <div className=" w-64 ">
           <h2 className=" text-center">
             <u>Project</u>
           </h2>
@@ -26,7 +22,7 @@ function Project() {
             voluptas eum! Hic, iure!
           </p>
         </div>
-        <div className=" w-64 border-solid border-2 border-slate-800">
+        <div className=" w-64 ">
           <h2 className=" text-center">
             <u>Languages & Tools</u>
           </h2>

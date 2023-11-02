@@ -8,8 +8,8 @@ import github from "./Assets/github.png";
 
 function LangTools() {
   return (
-    <div className="flex justify-evenly border-solid border-2 border-slate-800 p-3 m-2">
-      <div className="border-solid border-2 border-slate-800">
+    <div className="h-96 flex justify-evenly ">
+      <div className="">
         <h1 className=" text-center">
           <u>Languages</u>
         </h1>
@@ -19,7 +19,7 @@ function LangTools() {
           <img src={js} alt="JS" />
         </div>
       </div>
-      <div className="border-solid border-2 border-slate-800">
+      <div className="0">
         <h1 className=" text-center">
           <u>Tools / Libraries</u>
         </h1>
@@ -28,7 +28,7 @@ function LangTools() {
           <img src={react} alt="REACT" />
         </div>
       </div>
-      <div className="border-solid border-2 border-slate-800">
+      <div className="">
         <div>
           <h1 className=" text-center">
             <u>Software</u>

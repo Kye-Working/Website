@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <nav className=" flex justify-between border-solid border-2 border-slate-800 p-3 m-2">
+    <nav className=" flex justify-between p-3 m-2">
       <div className="">
         <a href="#" className="">
           @Kye
