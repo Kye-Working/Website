@@ -1,32 +1,31 @@
 function Navbar() {
   return (
-    <nav className=" flex justify-between p-3 m-2">
-      <div className="">
-        <a href="#" className="">
-          @Kye
-        </a>
+    <nav className="fixed p-4 w-full bg-white border-2 border-black text-xs lg:text-lg">
+      <div className="flex justify-center">
+        <div className="space-x-5">
+          <a href="" className="mr-16 ">
+            @Kye
+          </a>
+          <a href="#" className="">
+            Profile
+          </a>
+          <a href="#" className="">
+            AboutMe
+          </a>
+          <a href="#" className="">
+            Languages&Tools
+          </a>
+          <a href="#" className="">
+            Projects
+          </a>
+          <a href="#" className="">
+            WorkExperience
+          </a>
+          <a href="#" className="">
+            Contact
+          </a>
+        </div>
       </div>
-      <div className=" space-x-5">
-        <a href="#" className="">
-          Profile
-        </a>
-        <a href="#" className="">
-          About-Me
-        </a>
-        <a href="#" className="">
-          Languages&Tools
-        </a>
-        <a href="#" className="">
-          Projects
-        </a>
-        <a href="#" className="">
-          Work-experience
-        </a>
-        <a href="#" className="">
-          Contact
-        </a>
-      </div>
-      <div></div>
     </nav>
   );
 }
