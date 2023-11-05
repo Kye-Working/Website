@@ -1,9 +1,9 @@
 function Navbar() {
   return (
-    <nav className="fixed p-4 w-full bg-white border-2 border-black text-xs lg:text-lg">
+    <nav className="fixed p-4 w-full bg-white border-b-2 border-black text-xs lg:text-lg">
       <div className="flex justify-center">
         <div className="space-x-5">
-          <a href="" className="mr-16 ">
+          <a href="" className="lg:mr-12 sm:mr-4">
             @Kye
           </a>
           <a href="#" className="">
