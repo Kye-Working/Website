@@ -1,6 +1,9 @@
 function Contact() {
   return (
-    <form action="" className=" justify-evenly text-center ">
+    <form
+      action=""
+      className="h-screen flex flex-col justify-center items-center text-center "
+    >
       <div className="">
         <h1>Email</h1>
         <input

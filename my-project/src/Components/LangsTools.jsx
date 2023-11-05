@@ -8,7 +8,7 @@ import github from "./Assets/github.png";
 
 function LangTools() {
   return (
-    <div className="h-96 flex justify-evenly ">
+    <div className="h- flex flex-col justify-center items-center ">
       <div className="">
         <h1 className=" text-center">
           <u>Languages</u>

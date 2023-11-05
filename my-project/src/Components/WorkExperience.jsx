@@ -1,25 +1,19 @@
-import chainsaw from "./Assets/Chainsaw.png";
-
 function WorkExperience() {
   return (
-    <div className="h-96">
-      <div className="flex justify-center mb-2">
-        <h1>
-          <u>Work Experience</u>
-        </h1>
-      </div>
-      <div className="flex justify-center space-x-3">
-        <img src={chainsaw} className=" w-64 h-64" />
-        <div className=" w-1/4 p-1">
-          <h1 className="text-center mt-5">
-            <u>Job</u>
-          </h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, est
-            non! Quidem iste voluptatem, sapiente et velit in aut sequi sed modi
-            consequuntur eveniet ullam repudiandae autem quas veniam rem!
-          </p>
-        </div>
+    <div className="h-screen flex flex-col justify-center items-center">
+      <h1 className=" text-center">
+        <u>Work Experience</u>
+      </h1>
+      <div className="w-1/5 p-4">
+        <h2>
+          <u>Job</u>
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+          reiciendis iste accusantium officiis dolorum deleniti suscipit,
+          repellat voluptatem reprehenderit dolorem tenetur recusandae ratione
+          expedita! Cum in ex facilis eligendi ipsam!
+        </p>
       </div>
     </div>
   );

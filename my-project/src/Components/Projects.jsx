@@ -5,12 +5,12 @@ import js from "./Assets/js.png";
 
 function Project() {
   return (
-    <div className="h-96">
+    <div className="h-screen flex flex-col justify-center items-center">
       <h1 className="flex justify-center mb-2">
         <u>Projects</u>
       </h1>
       <div className="flex justify-center space-x-10 ">
-        <img src={chainsaw} alt="" className="h-64 w-64 " />
+        <img src={chainsaw} alt="" className=" w-64 " />
         <div className=" w-64 ">
           <h2 className=" text-center">
             <u>Project</u>
