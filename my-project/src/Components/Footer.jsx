@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="footer footer-center flex justify-between border-solid border-2 border-slate-800 p-3 m-2">
+    <footer className="footer footer-center flex justify-between border-solid border-2 border-slate-800 p-3 m-2 mt-26">
       <div></div>
       <div className="text-center">
         <p>Copyright © {new Date().getFullYear()}</p>

@@ -1,10 +1,10 @@
 function WorkExperience() {
   return (
-    <div className="h-screen flex flex-col justify-center items-center">
+    <div className=" flex flex-col justify-center items-center mt-24">
       <h1 className=" text-center">
         <u>Work Experience</u>
       </h1>
-      <div className="w-1/5 p-4">
+      <div className="w-96 p-4">
         <h2>
           <u>Job</u>
         </h2>

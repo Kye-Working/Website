@@ -1,7 +1,7 @@
 function About() {
   return (
-    <div className="h-screen flex flex-col justify-center items-center">
-      <div className="w-1/5 p-4">
+    <div className=" flex flex-col justify-center items-center mt-24">
+      <div className="w-96 p-4">
         <h1>
           <u>Education</u>
         </h1>
@@ -12,7 +12,7 @@ function About() {
           Iusto, quas dolor.
         </p>
       </div>
-      <div className="w-1/5 p-4">
+      <div className="w-96 p-4">
         <h1>
           <u>Background</u>
         </h1>
@@ -23,7 +23,7 @@ function About() {
           natus!
         </p>
       </div>
-      <div className="w-1/5 p-4">
+      <div className="w-96 p-4">
         <h1>
           <u>Hobbies</u>
         </h1>

@@ -2,7 +2,7 @@ function Contact() {
   return (
     <form
       action=""
-      className="h-screen flex flex-col justify-center items-center text-center "
+      className="flex flex-col justify-center items-center text-center my-24"
     >
       <div className="">
         <h1>Email</h1>

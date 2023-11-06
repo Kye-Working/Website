@@ -5,7 +5,7 @@ import js from "./Assets/js.png";
 
 function Project() {
   return (
-    <div className="h-screen flex flex-col justify-center items-center">
+    <div className=" flex flex-col justify-center items-center mt-24">
       <h1 className="flex justify-center mb-2">
         <u>Projects</u>
       </h1>
