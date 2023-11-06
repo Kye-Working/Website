@@ -1,19 +1,17 @@
 function Footer() {
   return (
-    <footer className="footer footer-center flex justify-between border-solid border-2 border-slate-800 p-3 m-2 mt-26">
-      <div></div>
-      <div className="text-center">
-        <p>Copyright © {new Date().getFullYear()}</p>
+    <footer className="w-full bg-white border-t-2 border-black text-xs lg:text-lg p-2">
+      <div className="flex justify-evenly">
+        <a href="" className="lg:mr-12 sm:mr-4">
+          @Kye
+        </a>
+        <div className="space-x-5 ">
+          <a href="">Linkdin</a>
+          <a href="">Github</a>
+          <a href="">Website</a>
+        </div>
+        <p className="ml-4">Copyright © {new Date().getFullYear()}</p>
       </div>
-      <div>
-        <a href="">@Kye</a>
-      </div>
-      <div className="space-x-5">
-        <a href="">Linkdin</a>
-        <a href="">Github</a>
-        <a href="">Website</a>
-      </div>
-      <div></div>
     </footer>
   );
 }
