@@ -1,16 +1,14 @@
 function Footer() {
   return (
-    <footer className="w-full bg-white border-t-2 border-black text-xs lg:text-lg p-2">
-      <div className="flex justify-evenly">
-        <a href="" className="lg:mr-12 sm:mr-4">
-          @Kye
-        </a>
-        <div className="space-x-5 ">
+    <footer className="w-full bg-white text-xs lg:text-lg p-2">
+      <div className="flex  justify-evenly">
+        <div className="space-x-5 border-2 border-black rounded-full p-3">
           <a href="">Linkdin</a>
           <a href="">Github</a>
+          <a href="">Email</a>
           <a href="">Website</a>
+          <a>| Copyright © {new Date().getFullYear()}</a>
         </div>
-        <p className="ml-4">Copyright © {new Date().getFullYear()}</p>
       </div>
     </footer>
   );
