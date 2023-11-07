@@ -1,6 +1,9 @@
 function About() {
   return (
     <div className=" flex flex-col justify-center items-center mt-24">
+      <h1>
+        <u>AboutMe</u>
+      </h1>
       <div className="w-96 p-4">
         <h1>
           <u>Education</u>

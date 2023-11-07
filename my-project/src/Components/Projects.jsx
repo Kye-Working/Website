@@ -1,37 +1,38 @@
-import chainsaw from "./Assets/Chainsaw.png";
-import react from "./Assets/react.png";
-import tailwind from "./Assets/tailwind.png";
-import js from "./Assets/js.png";
+import ml from "./Assets/ml.png";
+import website from "./Assets/website.png";
 
 function Project() {
   return (
-    <div className=" flex flex-col justify-center items-center mt-24">
-      <h1 className="flex justify-center mb-2">
-        <u>Projects</u>
-      </h1>
-      <div className="flex justify-center space-x-10 ">
-        <img src={chainsaw} alt="" className=" w-64 " />
-        <div className=" w-64 ">
-          <h2 className=" text-center">
-            <u>Project</u>
-          </h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-            maxime doloribus id! Commodi, molestias voluptatem. Cupiditate, non
-            iure iste delectus exercitationem, libero magni maiores optio animi
-            voluptas eum! Hic, iure!
-          </p>
-        </div>
-        <div className=" w-64 ">
-          <h2 className=" text-center">
-            <u>Languages & Tools</u>
-          </h2>
-          <div className="grid grid-flow-col-dense">
-            <img src={react} alt="" />
-            <img src={tailwind} alt="" />
-            <img src={js} alt="" />
-          </div>
-        </div>
+    <div className="flex flex-col justify-center items-center ">
+      <div className="text-center mt-24">
+        <h1 className="mb-6">
+          <u>Projects</u>
+        </h1>
+        <img src={ml} alt="" />
+      </div>
+      <div className="mb-6">
+        <h2>
+          <u>MachineLearning</u>
+        </h2>
+        <p className="w-96">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+          quibusdam qui eum delectus cum beatae ratione vero error itaque
+          maiores! Alias vel placeat nesciunt molestias facilis pariatur ad
+          suscipit illo!
+        </p>
+      </div>
+      <img src={website} alt="" />
+
+      <div className="">
+        <h2>
+          <u>Website</u>
+        </h2>
+        <p className="w-96">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, unde
+          vero reiciendis dolores eum quo distinctio beatae ratione, eos
+          aspernatur quia praesentium a sint, quos at asperiores omnis similique
+          ea.
+        </p>
       </div>
     </div>
   );

@@ -9,7 +9,7 @@ import github from "./Assets/github.png";
 function Tools() {
   return (
     <div className="flex flex-col justify-center items-center text-center">
-      <div className="mt-20">
+      <div className="mt-14">
         <h1>
           <u>Tools</u>
         </h1>

@@ -2,24 +2,30 @@ function Contact() {
   return (
     <form
       action=""
-      className="flex flex-col justify-center items-center text-center my-24"
+      className="flex flex-col justify-center items-center text-center mt-24 mb-8"
     >
       <div className="">
-        <h1>Email</h1>
+        <h1>
+          <u>Email</u>
+        </h1>
         <input
           type="text"
           className="w-80 border-solid border-2 border-slate-800"
         />
-        <h1>Subject</h1>
+        <h1>
+          <u>Subject</u>
+        </h1>
         <input
           type="text"
           name=""
           id=""
-          className="w-80  border-solid border-2 border-slate-800"
+          className="w-80 border-solid border-2 border-slate-800"
         />
       </div>
       <div>
-        <h1>Message</h1>
+        <h1>
+          <u>Message</u>
+        </h1>
         <textarea
           type="text"
           name=""

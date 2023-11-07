@@ -2,7 +2,7 @@ function Navbar() {
   return (
     <nav className="fixed w-full bg-white border-b-2 border-black text-xs lg:text-lg p-4">
       <div className="flex justify-center">
-        <div className="space-x-5 ">
+        <div className="lg:space-x-5 space-x-3">
           <a href="" className="lg:mr-12 sm:mr-4">
             @Kye
           </a>
