@@ -2,7 +2,7 @@ function Navbar() {
   return (
     <nav className="fixed w-full text-xs lg:text-lg p-4">
       <div className="flex justify-center ">
-        <div className="lg:space-x-5 space-x-3 bg-white border-2 rounded-full p-3 border-black">
+        <div className="lg:space-x-5 space-x-3 bg-[#FFFFFA] text-[#40434E] border-4 rounded-full p-3 border-[#40434E]">
           <a href="#" className="">
             Profile
           </a>

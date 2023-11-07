@@ -8,6 +8,9 @@ import Languages from "./Components/Languages.jsx";
 import Project from "./Components/Projects.jsx";
 import Tools from "./Components/Tools.jsx";
 
+document.body.style.backgroundColor = "#080705";
+document.body.style.color = "#FFFFFA";
+
 function App() {
   return (
     <>

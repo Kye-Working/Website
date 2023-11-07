@@ -4,7 +4,7 @@ import website from "./Assets/website.png";
 function Project() {
   return (
     <div className="flex flex-col justify-center items-center ">
-      <div className="text-center mt-24">
+      <div className="text-center mt-16">
         <h1 className="mb-6">
           <u>Projects</u>
         </h1>
@@ -34,6 +34,7 @@ function Project() {
           ea.
         </p>
       </div>
+      <div className="text-[#912F40]">__________________________________</div>
     </div>
   );
 }

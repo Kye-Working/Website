@@ -15,6 +15,7 @@ function WorkExperience() {
           expedita! Cum in ex facilis eligendi ipsam!
         </p>
       </div>
+      <div className="text-[#912F40]">__________________________________</div>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div className=" flex flex-col justify-center items-center mt-24">
+    <div className=" flex flex-col justify-center items-center mt-20">
       <h1>
         <u>AboutMe</u>
       </h1>
@@ -37,6 +37,7 @@ function About() {
           hic exercitationem!
         </p>
       </div>
+      <div className="text-[#912F40]">__________________________________</div>
     </div>
   );
 }
