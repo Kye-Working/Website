@@ -8,12 +8,9 @@ function Project() {
         <h1 className="mb-6">
           <u>Projects</u>
         </h1>
-        <img src={ml} alt="" />
       </div>
-      <div className="mb-6">
-        <h2>
-          <u>MachineLearning</u>
-        </h2>
+      <div className="mb-6 border-4 rounded-2xl text-center border-[#FFFFFA]">
+        <img src={ml} alt="" className="w-96 rounded-m" />
         <p className="w-96">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
           quibusdam qui eum delectus cum beatae ratione vero error itaque
@@ -21,9 +18,9 @@ function Project() {
           suscipit illo!
         </p>
       </div>
-      <img src={website} alt="" />
-
-      <div className="">
+      <div className="border-4 rounded-2xl text-center border-[#FFFFFA]">
+        {" "}
+        <img src={website} alt="" className="w-96 rounded-2xl" />
         <h2>
           <u>Website</u>
         </h2>
