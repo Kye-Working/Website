@@ -2,7 +2,7 @@ function Contact() {
   return (
     <form
       action=""
-      className="flex flex-col justify-center items-center text-center mt-24 mb-8"
+      className="flex flex-col justify-center items-center text-center mt-24 mb-4"
     >
       <div className="">
         <h1>
@@ -10,7 +10,7 @@ function Contact() {
         </h1>
         <input
           type="text"
-          className="w-80 border-solid border-2 border-slate-800 rounded-full p-1"
+          className="w-80 border-2 border-[#912F40] rounded-full p-1 text-[#40434E]"
         />
         <h1>
           <u>Subject</u>
@@ -19,7 +19,7 @@ function Contact() {
           type="text"
           name=""
           id=""
-          className="w-80 border-solid border-2 border-slate-800 rounded-full p-1"
+          className="w-80 border-2 border-[#912F40] rounded-full p-1 text-[#40434E]"
         />
       </div>
       <div>
@@ -30,15 +30,16 @@ function Contact() {
           type="text"
           name=""
           id=""
-          className="w-80 h-80  border-solid border-2 border-slate-800 rounded-xl p-1"
+          className="w-80 h-80 border-2 border-[#912F40] text-[#40434E] rounded-xl p-1"
         />
       </div>
       <button
         type="submit"
-        className="w-16 h-8  m-2 border-solid border-2 border-slate-800 rounded-full"
+        className="w-16 h-8  m-2 border-2 border-[#912F40] rounded-full"
       >
         <u>Send</u>
       </button>
+      <div className="text-[#912F40]">__________________________________</div>
     </form>
   );
 }

@@ -3,8 +3,12 @@ import chainsaw from "./Assets/Chainsaw.png";
 function Profile() {
   return (
     <div className="flex flex-col justify-center items-center text-center ">
-      <div className="mt-32 w-96">
-        <img src={chainsaw} alt="" className="border-4 border-[#912F40] p-3 " />
+      <div className="mt-24 w-96">
+        <img
+          src={chainsaw}
+          alt=""
+          className="sm:rounded-full border-4 border-[#912F40] p-3 rounded-full"
+        />
         <h1 className="mt-4">
           <u>Kye</u>
         </h1>

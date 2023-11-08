@@ -24,7 +24,6 @@ function Languages() {
           <img src={js} alt="" />
         </div>
       </div>
-      <div className="text-[#912F40]">__________________________________</div>
     </div>
   );
 }

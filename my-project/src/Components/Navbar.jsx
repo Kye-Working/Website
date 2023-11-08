@@ -1,24 +1,24 @@
 function Navbar() {
   return (
     <nav className="fixed w-full text-xs lg:text-lg p-4">
-      <div className="flex justify-center ">
-        <div className="lg:space-x-5 space-x-3 bg-[#FFFFFA] text-[#40434E] border-4 rounded-full p-3 border-[#40434E]">
-          <a href="#" className="">
+      <div className="flex justify-center">
+        <div className=" lg:space-x-5 space-x-3 bg-[#080705] text-[#FFFFFA] border-4 rounded-2xl p-3 border-[#912F40]">
+          <a href="#" className="hover:text-[#912F40]">
             Profile
           </a>
-          <a href="#" className="">
+          <a href="#" className="hover:text-[#912F40]">
             AboutMe
           </a>
-          <a href="#" className="">
+          <a href="#" className="hover:text-[#912F40]">
             Languages&Tools
           </a>
-          <a href="#" className="">
+          <a href="#" className="hover:text-[#912F40]">
             Projects
           </a>
-          <a href="#" className="">
+          <a href="#" className="hover:text-[#912F40]">
             WorkExperience
           </a>
-          <a href="#" className="">
+          <a href="#" className="hover:text-[#912F40]">
             Contact
           </a>
         </div>
