@@ -37,7 +37,7 @@ function About() {
           hic exercitationem!
         </p>
       </div>
-      <div className="text-[#912F40]">__________________________________</div>
+      <div className="w-96 border-b-4 border-[#912F40] mt-8 "></div>
     </div>
   );
 }

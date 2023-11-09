@@ -9,7 +9,7 @@ function Profile() {
           alt=""
           className="sm:rounded-full border-4 border-[#912F40] p-3 rounded-full"
         />
-        <h1 className="mt-4">
+        <h1 className="mt-8">
           <u>Kye</u>
         </h1>
         <p className="w-96">
@@ -19,7 +19,7 @@ function Profile() {
           at amet aspernatur.
         </p>
       </div>
-      <div className=" text-[#912F40]">__________________________________</div>
+      <div className="w-96 border-b-4 border-[#912F40] mt-8 "></div>
     </div>
   );
 }

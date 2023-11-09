@@ -1,3 +1,5 @@
+import sun from "./Assets/sun.png";
+
 function Navbar() {
   return (
     <nav className="fixed w-full text-xs lg:text-lg p-4">
