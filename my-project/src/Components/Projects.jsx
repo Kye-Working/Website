@@ -3,14 +3,14 @@ import website from "./Assets/website.png";
 
 function Project() {
   return (
-    <div className="flex flex-col justify-center items-center ">
+    <div className="text-[#080705] flex flex-col justify-center items-center ">
       <div className="text-center mt-16">
         <h1 className="mb-6">
           <u>Projects</u>
         </h1>
       </div>
-      <div className="mb-6 border-4 rounded-2xl text-center border-[#FFFFFA]">
-        <img src={ml} alt="" className="w-96 rounded-m" />
+      <div className="mb-6 border-4 rounded-2xl text-center border-[#080705]">
+        <img src={ml} alt="" className="w-96 rounded-2xl" />
         <p className="w-96">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
           quibusdam qui eum delectus cum beatae ratione vero error itaque
@@ -18,9 +18,9 @@ function Project() {
           suscipit illo!
         </p>
       </div>
-      <div className="border-4 rounded-2xl text-center border-[#FFFFFA]">
+      <div className="border-4 rounded-xl text-center border-[#080705]">
         {" "}
-        <img src={website} alt="" className="w-96 rounded-2xl" />
+        <img src={website} alt="" className="w-96 rounded-l" />
         <h2>
           <u>Website</u>
         </h2>

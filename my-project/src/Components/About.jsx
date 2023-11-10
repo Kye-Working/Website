@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div className=" flex flex-col justify-center items-center mt-20">
+    <div className=" text-[#080705] flex flex-col justify-center items-center mt-0">
       <h1>
         <u>AboutMe</u>
       </h1>

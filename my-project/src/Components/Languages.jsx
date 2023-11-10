@@ -8,7 +8,7 @@ import github from "./Assets/github.png";
 
 function Languages() {
   return (
-    <div className="flex flex-col justify-center items-center text-center">
+    <div className="text-[#080705] flex flex-col justify-center items-center text-center">
       <div className="mt-20">
         <h1>
           <u>Languages</u>

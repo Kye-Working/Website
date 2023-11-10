@@ -2,7 +2,7 @@ import chainsaw from "./Assets/Chainsaw.png";
 
 function Profile() {
   return (
-    <div className="flex flex-col justify-center items-center text-center ">
+    <div className="bg-[#080705] text-[#FFFFFA] flex flex-col justify-center items-center text-center ">
       <div className="mt-24 w-96">
         <img
           src={chainsaw}
