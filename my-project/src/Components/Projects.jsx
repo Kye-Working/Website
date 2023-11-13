@@ -19,11 +19,7 @@ function Project() {
         </p>
       </div>
       <div className="border-4 rounded-xl text-center border-[#080705]">
-        {" "}
         <img src={website} alt="" className="w-96 rounded-l" />
-        <h2>
-          <u>Website</u>
-        </h2>
         <p className="w-96">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, unde
           vero reiciendis dolores eum quo distinctio beatae ratione, eos
