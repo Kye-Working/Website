@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div className="h-[40rem] text-[#080705] flex flex-col justify-center items-center mt-16">
+    <div className="h-[40rem] text-[#080705] flex flex-col justify-center items-center mt-10">
       <h1>
         <u>AboutMe</u>
       </h1>
@@ -39,7 +39,7 @@ function About() {
           </p>
         </div>
       </div>
-      <div className="w-96 border-b-4 border-[#912F40] 2xl:mt-40 mt-20"></div>
+      <div className="w-96 border-b-4 border-[#912F40] 2xl:mt-32 "></div>
     </div>
   );
 }
