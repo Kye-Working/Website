@@ -4,9 +4,8 @@ import Profile from "./Components/Profile.jsx";
 import About from "./Components/About.jsx";
 import Contact from "./Components/Contact.jsx";
 import WorkExperience from "./Components/WorkExperience.jsx";
-import Languages from "./Components/Languages.jsx";
 import Project from "./Components/Projects.jsx";
-import Tools from "./Components/Tools.jsx";
+import LangTools from "./Components/LangTools.jsx";
 
 function App() {
   return (
@@ -15,8 +14,7 @@ function App() {
       <Profile></Profile>
       <About></About>
       <WorkExperience></WorkExperience>
-      <Languages></Languages>
-      <Tools></Tools>
+      <LangTools></LangTools>
       <Project></Project>
       <Contact></Contact>
       <Footer></Footer>
