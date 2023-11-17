@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <nav className="bg-[#080705] fixed w-full text-xs 2xl:text-lg p-1 ">
+    <nav className="bg-[#080705] w-full text-xs 2xl:text-lg p-1 ">
       <div className="flex justify-center ">
         <div className=" 2xl:space-x-5 space-x-3  text-[#FFFFFA]  p-3 ">
           <a href="#" className="hover:text-[#912F40] hover:overline">

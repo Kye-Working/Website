@@ -8,19 +8,29 @@ import github from "./Assets/github.png";
 
 function LangTools() {
   return (
-    <div className="h-[40rem] text-[#080705] flex flex-col justify-center items-center mt-20 2xl:mt-16">
-      <h1 className="mb-5">
-        <u>Languages & Tools</u>
-      </h1>
-      <div className="2xl:flex  2xl:space-x-5 mb-20 text-center">
-        <div className="w-80 mt-5 border-4 border-[#080705] rounded-2xl 2xl:h-88 ">
-          <h1>
-            <u>Languages</u>
-          </h1>
+    <div className="h-[40rem] text-[#080705] flex flex-col justify-center items-center mt-10 ">
+      <div className="2xl:flex mb-20 text-center">
+        <div className="w-80 border-4  border-[#080705] 2xl:h-88 ">
+          <h1 className=" border-b-4 border-black">Languages</h1>
           <div className="flex flex-row-3 w-96">
-            <img src={html} alt="" className=" " />
-            <img src={css} alt="" className=" " />
-            <img src={js} alt="" className=" " />
+            <img
+              src={html}
+              alt=""
+              title="HTML"
+              className=" scale-100 hover:scale-125"
+            />
+            <img
+              src={css}
+              alt=""
+              title="CSS"
+              className="scale-100 hover:scale-125 "
+            />
+            <img
+              src={js}
+              alt=""
+              title="JavaScript"
+              className="scale-100 hover:scale-125 "
+            />
           </div>
           <div className="flex flex-row-3 w-96">
             <img src={html} alt="" className=" " />
@@ -33,19 +43,15 @@ function LangTools() {
             <img src={js} alt="" className=" " />
           </div>
         </div>
-        <div className="w-80 mt-5 border-4 border-[#080705] rounded-2xl  2xl:h-88 ">
-          <h1>
-            <u>Tools</u>
-          </h1>
+        <div className="w-80 border-x-4 2xl:border-x-0 2xl:border-y-4  border-[#080705] 2xl:h-88 ">
+          <h1 className=" border-b-4 border-black">Tools</h1>
           <div className="flex flex-row-2 ">
             <img src={tailwind} alt="" className="" />
             <img src={react} alt="" className=" " />
           </div>
         </div>
-        <div className="w-80 mt-5 border-4 border-[#080705] rounded-2xl  2xl:h-88 ">
-          <h1>
-            <u>Software</u>
-          </h1>
+        <div className="w-80  border-4 border-[#080705] 2xl:h-88 ">
+          <h1 className=" border-b-4 border-black">Software</h1>
           <div className="flex flex-row-2 ">
             <img src={github} alt="" className=" " />
             <img src={office} alt="" className=" " />
