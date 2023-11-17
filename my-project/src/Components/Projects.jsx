@@ -3,7 +3,7 @@ import website from "./Assets/website.png";
 
 function Project() {
   return (
-    <div className="text-[#080705] flex flex-col justify-center items-center ">
+    <div className="text-[#080705] flex flex-col justify-center items-center 2xl:mt-0 mt-20">
       <div className="text-center mt-16">
         <h1 className="mb-6">
           <u>Projects</u>
@@ -27,7 +27,7 @@ function Project() {
           ea.
         </p>
       </div>
-      <div className="w-96 border-b-4 border-[#912F40] mt-8 "></div>
+      <div className="w-96 border-b-4 border-[#912F40] mt-20"></div>
     </div>
   );
 }
