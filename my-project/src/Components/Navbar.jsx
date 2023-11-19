@@ -1,4 +1,14 @@
 function Navbar() {
+  const ModeOn = () => {
+    document.querySelector("body").style.background = "red";
+    document.getElementById("OnButton").style.display = "none";
+    document.getElementById("OffButton").style.display = "block";
+  };
+  const ModeOff = () => {
+    document.querySelector("body").style.background = "white";
+    document.getElementById("OffButton").style.display = "none";
+    document.getElementById("OnButton").style.display = "block";
+  };
   return (
     <nav className="bg-[#080705] w-full text-xs 2xl:text-lg p-1 ">
       <div className="flex justify-center ">
@@ -21,6 +31,18 @@ function Navbar() {
           <a href="#" className="hover:text-[#912F40] hover:overline">
             Contact
           </a>
+        </div>
+        <div className="flex justify-end">
+          <button id="OnButton" onClick={ModeOn} className="text-white">
+            O
+          </button>
+          <button
+            id="OffButton"
+            onClick={ModeOff}
+            className="hidden text-red-700"
+          >
+            O
+          </button>
         </div>
       </div>
     </nav>
