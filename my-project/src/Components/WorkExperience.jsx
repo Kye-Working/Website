@@ -1,7 +1,7 @@
 import work from "./Assets/work.png";
 function WorkExperience() {
   return (
-    <div className="h-[40rem] text-[#080705] flex flex-col justify-center items-center">
+    <div className="h-[40rem]  flex flex-col justify-center items-center">
       <div className="flex space-x-5 mb-20">
         <div>
           <img

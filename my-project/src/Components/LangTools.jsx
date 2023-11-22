@@ -8,10 +8,10 @@ import github from "./Assets/github.png";
 
 function LangTools() {
   return (
-    <div className="h-[40rem] text-[#080705] flex flex-col justify-center items-center mt-10 ">
+    <div className="h-[40rem] flex flex-col justify-center items-center mt-10 ">
       <div className="2xl:flex mb-20 text-center">
-        <div className="w-80 border-2  border-[#080705] 2xl:h-88 ">
-          <h1 className=" border-b-2 border-black">Languages</h1>
+        <div className="w-80 border-2   2xl:h-88 ">
+          <h1 className=" border-b-2 ">Languages</h1>
           <div className="flex flex-row-3 w-96">
             <img
               src={html}
@@ -43,15 +43,15 @@ function LangTools() {
             <img src={js} alt="" className=" " />
           </div>
         </div>
-        <div className="w-80 border-x-2 2xl:border-x-0 2xl:border-y-2  border-[#080705] 2xl:h-88 ">
-          <h1 className=" border-b-2 border-black">Tools</h1>
+        <div className="w-80 border-x-2 2xl:border-x-0 2xl:border-y-2   2xl:h-88 ">
+          <h1 className=" border-b-2 ">Tools</h1>
           <div className="flex flex-row-2 ">
             <img src={tailwind} alt="" className="" />
             <img src={react} alt="" className=" " />
           </div>
         </div>
-        <div className="w-80  border-2 border-[#080705] 2xl:h-88 ">
-          <h1 className=" border-b-2 border-black">Software</h1>
+        <div className="w-80  border-2  2xl:h-88 ">
+          <h1 className=" border-b-2 ">Software</h1>
           <div className="flex flex-row-2 ">
             <img src={github} alt="" className=" " />
             <img src={office} alt="" className=" " />

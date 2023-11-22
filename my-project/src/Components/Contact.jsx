@@ -10,7 +10,7 @@ function Contact() {
         </h1>
         <input
           type="text"
-          className="w-80 border-2 border-[#912F40] rounded-full p-1 text-[#40434E]"
+          className="w-80 border-2 border-[#912F40] rounded-full p-1 "
         />
         <h1>
           <u>Subject</u>
@@ -19,7 +19,7 @@ function Contact() {
           type="text"
           name=""
           id=""
-          className="w-80 border-2 border-[#912F40] rounded-full p-1 text-[#40434E]"
+          className="w-80 border-2 border-[#912F40] rounded-full p-1 "
         />
       </div>
       <div>
@@ -30,7 +30,7 @@ function Contact() {
           type="text"
           name=""
           id=""
-          className="w-80 h-80 border-2 border-[#912F40] text-[#40434E] rounded-xl p-1"
+          className="w-80 h-80 border-2 border-[#912F40]  rounded-xl p-1"
         />
       </div>
       <button

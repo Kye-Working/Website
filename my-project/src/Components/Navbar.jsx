@@ -1,11 +1,13 @@
 function Navbar() {
   const ModeOn = () => {
-    document.querySelector("body").style.background = "red";
+    document.querySelector("body").style.background = "#080705";
+    document.querySelector("body").style.color = "white";
     document.getElementById("OnButton").style.display = "none";
     document.getElementById("OffButton").style.display = "block";
   };
   const ModeOff = () => {
     document.querySelector("body").style.background = "white";
+    document.querySelector("body").style.color = "#080705";
     document.getElementById("OffButton").style.display = "none";
     document.getElementById("OnButton").style.display = "block";
   };
