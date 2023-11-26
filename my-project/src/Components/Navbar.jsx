@@ -1,3 +1,6 @@
+import Day from "./Assets/Day.png";
+import Night from "./Assets/Night.png";
+
 function Navbar() {
   const ModeOn = () => {
     document.querySelector("body").style.background = "#080705";
@@ -13,7 +16,7 @@ function Navbar() {
   };
   return (
     <nav className="bg-[#080705] w-full text-xs 2xl:text-lg p-1 ">
-      <div className="flex justify-center ">
+      <div className="grid grid-flow-col justify-center ">
         <div className=" 2xl:space-x-5 space-x-3  text-[#FFFFFA]  p-3 ">
           <a href="#" className="hover:text-[#912F40] hover:overline">
             Profile
@@ -34,18 +37,17 @@ function Navbar() {
             Contact
           </a>
         </div>
-        <div className="flex justify-end">
-          <button id="OnButton" onClick={ModeOn} className="text-white">
-            O
-          </button>
-          <button
-            id="OffButton"
-            onClick={ModeOff}
-            className="hidden text-red-700"
-          >
-            O
-          </button>
-        </div>
+
+        <button id="OnButton" onClick={ModeOn} className="text-white">
+          <img src={Day} alt="" className="w-8 ml-8" />
+        </button>
+        <button
+          id="OffButton"
+          onClick={ModeOff}
+          className="hidden text-red-700"
+        >
+          <img src={Night} alt="" className="w-8 ml-8" />
+        </button>
       </div>
     </nav>
   );
